@@ -11,10 +11,11 @@ public class Lesson05PrimitiveTypesExercise {
         double salary = 1720.0;
         Date date = new Date();
 
+        String response = "I, %s, living in %s, confirm that i have been received the salary of %.2f on date: %tF";
 
 
         System.out.printf(
-                "I, %s, living in %s, confirm that i have been received the salary of %.2f on date: %tF", name, address, salary, date);
+                response, name, address, salary, date);
     }
 
 
