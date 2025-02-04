@@ -9,15 +9,20 @@ public class Anime {
     private int episodes;
     private String genre;
 
-    public void init(String name, String type, int episodes){
+    public Anime(){
+        System.out.println("Inside of non-arguments constructor.");
+    }
+    public Anime(String name, String type, int episodes){
         this.name = name;
         this.type = type;
         this.episodes = episodes;
+        System.out.println("Inside of 3 arguments constructor.");
     }
 
-    public void init(String name, String type, int episodes, String genre){
-        this.init(name, type, episodes);
+    public Anime(String name, String type, int episodes, String genre){
+        this(name, type, episodes);
         this.genre = genre;
+        System.out.println("Inside of 4 arguments constructor.");
     }
 
     public void printAnimeInfo(){

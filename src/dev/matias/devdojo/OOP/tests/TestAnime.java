@@ -7,8 +7,7 @@ import lombok.Data;
 
 public class TestAnime {
     public static void main(String[] args) {
-        Anime anime = new Anime();
-        anime.init("Attack on Titan", "Shonen", 75, "Action");
+        Anime anime = new Anime("Attack on Titan", "Shonen", 75, "Action");
         anime.printAnimeInfo();
     }
 }
