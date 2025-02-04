@@ -1,7 +1,7 @@
-package dev.matias.devdojo.OOP.tests;
+package matias.dev.devdojo.OOP.Introdution.tests;
 
 
-import dev.matias.devdojo.OOP.domain.Teacher;
+import matias.dev.devdojo.OOP.Introdution.domain.Teacher;
 
 public class TestTeacher {
 

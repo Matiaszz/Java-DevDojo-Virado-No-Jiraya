@@ -1,8 +1,7 @@
-package dev.matias.devdojo.OOP.tests;
+package matias.dev.devdojo.OOP.Introdution.tests;
 
 
-import dev.matias.devdojo.OOP.domain.Anime;
-import lombok.Data;
+import matias.dev.devdojo.OOP.Introdution.domain.Anime;
 
 
 public class TestAnime {

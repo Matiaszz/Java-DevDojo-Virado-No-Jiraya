@@ -1,4 +1,4 @@
-package dev.matias.devdojo.introdution;
+package matias.dev.devdojo.introdution;
 
 public class HelloWorld {
     public static void main(String[] args) {

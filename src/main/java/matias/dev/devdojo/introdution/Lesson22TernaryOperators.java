@@ -1,4 +1,4 @@
-package dev.matias.devdojo.introdution;
+package matias.dev.devdojo.introdution;
 
 public class Lesson22TernaryOperators {
     public static void main(String[] args){

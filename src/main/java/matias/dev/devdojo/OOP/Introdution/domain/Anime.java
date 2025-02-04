@@ -1,4 +1,4 @@
-package dev.matias.devdojo.OOP.domain;
+package matias.dev.devdojo.OOP.Introdution.domain;
 
 import lombok.Data;
 
