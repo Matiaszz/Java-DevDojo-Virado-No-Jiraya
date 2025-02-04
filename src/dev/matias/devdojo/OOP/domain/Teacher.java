@@ -31,8 +31,11 @@ public class Teacher {
 
         System.out.println("Name: " + getName());
         System.out.println("Age: " + getAge());
-        System.out.println("Salaries: " + Arrays.toString(getSalaries()));
+        System.out.println("Salaries:");
 
+        for (double salary : getSalaries()){
+            System.out.println(salary);
+        }
     }
     public double mediaSalary(){
         return Arrays.stream(salaries).average().orElse(0);
