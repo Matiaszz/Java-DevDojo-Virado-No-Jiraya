@@ -25,7 +25,5 @@ public class TestAssociation {
         System.out.println();
 
         matias.showInfo();
-
-
     }
 }
