@@ -22,12 +22,10 @@ public class Teacher {
         return this.seminars.contains(seminar);
     }
 
-    public List<Seminar> registerSeminarInOwnedSeminars(Seminar seminar, Local local){
-        if (seminarInOwnedSeminars(seminar)) return null;
+    public void registerSeminarInOwnedSeminars(Seminar seminar){
+        if (seminarInOwnedSeminars(seminar)) return;
 
         this.seminars.add(seminar);
-        local.registerSeminarInLocal(seminar);
-        return this.seminars;
     }
 
 }
